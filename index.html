@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <link rel="stylesheet" href="Leaflet-draw/dist/leaflet.draw.css">
+    <title>Map Editor</title>
+    <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>  -->
+</head>
+
+<body>
+    <header>
+        <h1>Map Editor</h1>
+    </header>
+    <div class="container">
+        <div class="toolbar">
+            <button class="toolbar-button" id="add-layer-button">Add Layer</button>
+            <button class="toolbar-button" id="delete-layer-button">Add Point</button>
+            <button class="toolbar-button" id="download-button">Add Polygon</button>
+            <!-- <button class="toolbar-button" id="transform-button">Transform</button>
+            <button class="toolbar-button" id="offset-button">Offset</button>
+            <button class="toolbar-button" id="split-polygon-button">Split Polygon</button>
+            <button class="toolbar-button" id="merge-polygon-button">Merge Polygon</button>
+            <button class="toolbar-button" id="distance-measurement-button">Distance Measurement</button>
+            <button class="toolbar-button" id="download-button">Download</button>
+            <button class="toolbar-button" id="unlock-marker-button">Unlock Zoom</button>
+            <button class="toolbar-button" id="select-layer-button">Select Layer</button> -->
+            <!-- Add more buttons here -->
+        </div>
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+    </div>
+    <script src="leaflet/leaflet.js"></script>
+    <script src="Leaflet-draw/dist/leaflet.draw.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    <script src="script.js"></script>
+    <script src="script.js"></script> -->
+</body>
+
+</html>
