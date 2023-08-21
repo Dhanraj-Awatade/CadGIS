@@ -18,9 +18,8 @@
     <div class="container">
         <div class="toolbar">
             <button class="toolbar-button" id="add-layer-button">Add Layer</button>
-            <button class="toolbar-button" id="delete-layer-button">Add Point</button>
-            <button class="toolbar-button" id="download-button">Add Polygon</button>
-            <!-- <button class="toolbar-button" id="transform-button">Transform</button>
+            <button class="toolbar-button" id="upload-map-button">Upload Map</button>
+            <!-- <button class="toolbar-button" id="layers-button">Layers</button>
             <button class="toolbar-button" id="offset-button">Offset</button>
             <button class="toolbar-button" id="split-polygon-button">Split Polygon</button>
             <button class="toolbar-button" id="merge-polygon-button">Merge Polygon</button>
@@ -34,9 +33,12 @@
             <div id="map"></div>
         </div>
     </div>
+    <div id="layer-panel"></div>
+    <input type="file" id="map-upload-input" accept=".tif">
     <script src="leaflet/leaflet.js"></script>
     <script src="Leaflet-draw/dist/leaflet.draw.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/geotiff"></script>
 
     <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
